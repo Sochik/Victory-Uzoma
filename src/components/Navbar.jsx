@@ -50,8 +50,8 @@ export default function Navbar() {
         <ul
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } transition-transform duration-500 ease-in-out absolute top-3/4 left-0 w-full text-light bg-secondary bg-opacity-70 md:static md:bg-inherit md:flex md:flex-row md:items-center md:space-x-6 md:justify-center`}
-          data-aos="fade-up"
+          } transition-transform z-50 duration-500 ease-in-out absolute top-3/4 left-0 w-full text-light bg-secondary bg-opacity-70 md:static md:bg-inherit md:flex md:flex-row md:items-center md:space-x-6 md:justify-center`}
+          
         >
           {[
             { name: "Home", href: "#Home" },
